@@ -6,6 +6,7 @@ import HomeScreen from './screens/HomeScreen';
 import ImageScreen from './screens/ImageScreen';
 import CounterScreen from './screens/CounterScreen';
 import BunakenScreen from './screens/BunakenScreen';
+import LoginScreen from './screens/LoginScreen';
 
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 
@@ -15,9 +16,10 @@ const navigator = createStackNavigator({
   Home: HomeScreen,
   Image: ImageScreen,
   Counter: CounterScreen,
-  Bunaken: BunakenScreen
+  Bunaken: BunakenScreen,
+  Login: LoginScreen,
 },{
-  initialRouteName: 'Home',
+  initialRouteName: 'Login',
   defaultNavigationOptions: {
     headerTitle: 'Bengkel Online'
   }
