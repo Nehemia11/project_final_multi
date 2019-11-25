@@ -5,7 +5,7 @@ import StudentScreen from './screens/StudentScreen';
 import HomeScreen from './screens/HomeScreen';
 import ImageScreen from './screens/ImageScreen';
 import CounterScreen from './screens/CounterScreen';
-import BunakenScreen from './screens/BunakenScreen';
+import MobilScreen from './screens/MobilScreen';
 import LoginScreen from './screens/LoginScreen';
 
 import { createStackNavigator, createAppContainer } from 'react-navigation';
@@ -16,7 +16,7 @@ const navigator = createStackNavigator({
   Home: HomeScreen,
   Image: ImageScreen,
   Counter: CounterScreen,
-  Bunaken: BunakenScreen,
+  Mobil: MobilScreen,
   Login: LoginScreen,
 },{
   initialRouteName: 'Login',
