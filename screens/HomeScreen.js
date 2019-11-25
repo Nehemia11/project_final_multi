@@ -11,7 +11,7 @@ const HomeScreen = ({ navigation }) => {
                 imageSource={require('../assets/beach.jpg')}
                 rating="5"
                 navObj={navigation}
-                screenName="Bunaken"
+                screenName="Mobil"
             />
             {/* <Button 
                 title="Go to Component Screen"
