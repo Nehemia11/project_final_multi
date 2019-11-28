@@ -7,6 +7,7 @@ import ImageScreen from './screens/ImageScreen';
 import CounterScreen from './screens/CounterScreen';
 import MobilScreen from './screens/MobilScreen';
 import LoginScreen from './screens/LoginScreen';
+import MotorScreen from './screens/BunakenScreen';
 
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 
@@ -17,6 +18,7 @@ const navigator = createStackNavigator({
   Image: ImageScreen,
   Counter: CounterScreen,
   Mobil: MobilScreen,
+  Motor: MotorScreen,
   Login: LoginScreen,
 },{
   initialRouteName: 'Login',

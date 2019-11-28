@@ -9,7 +9,7 @@ export default class ImageScreen extends React.Component{
             <View>
             <ImageDetail 
                 title="Beach"
-                imageSource={require('../assets/beach.jpg')}
+                imageSource={require('../assets/mobil.jpg')}
                 rating="5"
             />
             <ImageDetail 

@@ -13,6 +13,13 @@ const HomeScreen = ({ navigation }) => {
                 navObj={navigation}
                 screenName="Mobil"
             />
+            <ImageDetail 
+                title="Test"
+                imageSource={require('../assets/beach.jpg')}
+                rating="5"
+                navObj={navigation}
+                screenName="Motor"
+            />
             {/* <Button 
                 title="Go to Component Screen"
                 onPress={()=> navigation.navigate('Component')}

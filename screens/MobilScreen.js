@@ -16,7 +16,7 @@ export default class Store extends Component {
     super(props);
     this.state = {
       data: [
-        {id:1, title: "Velg",  price:"$ 50.00 USD", image:"https://www.otomotifo.com/wp-content/uploads/2018/10/Foto-Velg-Mobil-Ring-17-9.jpg"},
+        {id:1, title: "Velgg",  price:"$ 50.00 USD", image:"https://beritabalap.com/wp-content/uploads/2019/08/Port-Rim-RCB-FG-525-BeritaBalap-700x400.jpg"},
         {id:2, title: "Ban luar",  price:"$ 41.13 USD", image:"https://s.kaskus.id/r480x480/images/fjb/2017/10/15/ban_mobil_merk_toyo_proxes_t1r_ukuran_195_55_r16_9852611_1508043734.jpg"} ,
         {id:3, title: "Mesin",  price:"$ 200 USD", image:"https://i1.wp.com/pedaltiga.com/wp-content/uploads/2018/02/Cara-Meningkatkan-Tenaga-Mesin-Mobil.png?ssl=1"}, 
         {id:4, title: "Body kit",  price:"$ 400.00 USD", image:"https://id-test-11.slatic.net/p/0e463f0e0d8fd8797af6183b4ffac482.jpg_340x340q80.jpg_.webp"}, 
