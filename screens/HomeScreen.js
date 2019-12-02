@@ -7,16 +7,14 @@ const HomeScreen = ({ navigation }) => {
     return (
         <View>
             <ImageDetail 
-                title="Test"
-                imageSource={require('../assets/beach.jpg')}
-                rating="5"
+                title="Motor"
+                imageSource={require('../assets/motor.jpg')}
                 navObj={navigation}
                 screenName="Mobil"
             />
             <ImageDetail 
-                title="Test"
-                imageSource={require('../assets/beach.jpg')}
-                rating="5"
+                title="Mobil"
+                imageSource={require('../assets/mobil.jpg')}
                 navObj={navigation}
                 screenName="Motor"
             />
